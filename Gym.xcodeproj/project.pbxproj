@@ -17,6 +17,8 @@
 		911AFED629AD29D400087A66 /* GymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911AFED529AD29D400087A66 /* GymUITests.swift */; };
 		911AFED829AD29D400087A66 /* GymUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911AFED729AD29D400087A66 /* GymUITestsLaunchTests.swift */; };
 		911AFEE729AD2C6600087A66 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911AFEE629AD2C6600087A66 /* WorkoutList.swift */; };
+		911AFEE929AD32E900087A66 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911AFEE829AD32E900087A66 /* Workout.swift */; };
+		915EDF5229AD36330078F22C /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EDF5129AD36330078F22C /* WorkoutStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		911AFED529AD29D400087A66 /* GymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymUITests.swift; sourceTree = "<group>"; };
 		911AFED729AD29D400087A66 /* GymUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		911AFEE629AD2C6600087A66 /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		911AFEE829AD32E900087A66 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		915EDF5129AD36330078F22C /* WorkoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				911AFEBF29AD29D300087A66 /* LaunchScreen.storyboard */,
 				911AFEC229AD29D300087A66 /* Info.plist */,
 				911AFEE629AD2C6600087A66 /* WorkoutList.swift */,
+				911AFEE829AD32E900087A66 /* Workout.swift */,
+				915EDF5129AD36330078F22C /* WorkoutStore.swift */,
 			);
 			path = Gym;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				911AFEB929AD29D200087A66 /* ViewController.swift in Sources */,
 				911AFEB529AD29D200087A66 /* AppDelegate.swift in Sources */,
 				911AFEB729AD29D200087A66 /* SceneDelegate.swift in Sources */,
+				915EDF5229AD36330078F22C /* WorkoutStore.swift in Sources */,
+				911AFEE929AD32E900087A66 /* Workout.swift in Sources */,
 				911AFEE729AD2C6600087A66 /* WorkoutList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
