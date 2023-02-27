@@ -11,7 +11,10 @@ class WorkoutList: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
-        cell.textLabel?.text = "Gym workout"
+        
+        let workout = workoutStore.allWorkouts[indexPath.row]
+        cell.textLabel?.text = workout.name
+        cell.detailTextLabel?.text = "\(workout.weight)"
         return cell
     }
 }
